@@ -27,7 +27,11 @@ public class ModCreativeModeTabs {
 
                         pOutput.accept(ModBlocks.HAPPY_BLOCK.get());
 
+                        pOutput.accept(ModBlocks.CRYSTAL_METH_BLOCK.get());
+                        pOutput.accept(ModBlocks.RAW_METH_BLOCK.get());
 
+                        pOutput.accept(ModItems.CRYSTAL_METH.get());
+                        pOutput.accept(ModItems.RAW_METH.get());
 
                     })
                     .build());

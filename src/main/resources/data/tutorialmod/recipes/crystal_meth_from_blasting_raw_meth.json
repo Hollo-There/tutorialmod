@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 4,
+  "group": "crystal_meth",
+  "ingredient": {
+    "item": "tutorialmod:raw_meth"
+  },
+  "result": "tutorialmod:crystal_meth"
+}

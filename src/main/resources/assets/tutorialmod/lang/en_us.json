@@ -4,5 +4,10 @@
 
   "block.tutorialmod.happy_block": "Happy Block!",
 
-  "creativetab.random_tab" : "Is this real chat? WTS"
+  "block.tutorialmod.raw_meth_block": "Block of Raw Meth",
+  "block.tutorialmod.crystal_meth_block": "Block of Crystal Meth",
+  "item.tutorialmod.raw_meth": "JESSE! WE NEED TO COOK",
+  "item.tutorialmod.crystal_meth": "Crystal Meth",
+
+  "creativetab.random_tab" : "My Name is not Skyler White"
 }

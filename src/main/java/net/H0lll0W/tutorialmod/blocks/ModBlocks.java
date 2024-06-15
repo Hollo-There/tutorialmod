@@ -21,10 +21,10 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> HAPPY_BLOCK = registerBlock("happy_block",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.SLIME_BLOCK).sound(SoundType.AMETHYST)));
-    public static final RegistryObject<Block> RAW_METH_BLOCK = registerBlock("raw_meth_block",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.AMETHYST_BLOCK).sound(SoundType.AMETHYST)));
-    public static final RegistryObject<Block> CRYSTAL_METH_BLOCK = registerBlock("crystal_meth_block",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.AMETHYST_BLOCK).sound(SoundType.AMETHYST)));
+    public static final RegistryObject<Block> IRIDIUM_ORE = registerBlock("iridium_ore",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_ORE).sound(SoundType.AMETHYST)));
+    public static final RegistryObject<Block> DEEPSLATE_IRIDIUM_ORE = registerBlock("deepslate_iridium_ore",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.DEEPSLATE_IRON_ORE).sound(SoundType.AMETHYST)));
 
     private static <T extends Block> RegistryObject<T> registerBlock (String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);

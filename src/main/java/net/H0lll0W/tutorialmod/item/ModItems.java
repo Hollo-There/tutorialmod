@@ -15,10 +15,13 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> BRICK2048_128 = ITEMS.register("brick2048_128",
             () -> new Item(new Item.Properties()));
-    public static final RegistryObject<Item> RAW_METH = ITEMS.register("raw_meth",
+    public static final RegistryObject<Item> UNREFINED_IRIDIUM = ITEMS.register("unrefined_iridium",
             () -> new Item(new Item.Properties()));
-    public static final RegistryObject<Item> CRYSTAL_METH = ITEMS.register("crystal_meth",
+    public static final RegistryObject<Item> REFINED_IRIDIUM = ITEMS.register("refined_iridium",
             () -> new Item(new Item.Properties()));
+
+
+
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
     }

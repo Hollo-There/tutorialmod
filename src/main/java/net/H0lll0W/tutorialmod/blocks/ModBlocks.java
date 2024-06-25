@@ -1,6 +1,7 @@
 package net.H0lll0W.tutorialmod.blocks;
 
 import net.H0lll0W.tutorialmod.TutorialMod;
+import net.H0lll0W.tutorialmod.blocks.custom.TribalDrum;
 import net.H0lll0W.tutorialmod.item.ModItems;
 import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
@@ -29,6 +30,8 @@ public class ModBlocks {
     public static final RegistryObject<Block> DEEPSLATE_IRIDIUM_ORE = registerBlock("deepslate_iridium_ore",
             () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.DEEPSLATE_IRON_ORE)
                     .strength(4.5f).requiresCorrectToolForDrops(), UniformInt.of(6, 10)));
+    public static final RegistryObject<Block> TRIBAL_DRUM = registerBlock("tribal_drum",
+            () -> new TribalDrum(BlockBehaviour.Properties.copy(Blocks.NOTE_BLOCK)));
 
     private static <T extends Block> RegistryObject<T> registerBlock (String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);

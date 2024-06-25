@@ -51,6 +51,16 @@ public class TutorialMod
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.SAPPHIRE);
             event.accept(ModItems.BRICK2048_128);
+        } else if (event.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {
+            event.accept(ModItems.TOMATO);
+            event.accept(ModItems.CHILI);
+            event.accept(ModItems.CORN);
+            event.accept(ModItems.LENTILS);
+            event.accept(ModItems.PEPPER);
+            event.accept(ModItems.AVOCADO);
+            event.accept(ModItems.STRAWBERRY);
+            event.accept(ModItems.PINEAPPLE);
+            event.accept(ModItems.BLUEBERRY);
         }
     }
 

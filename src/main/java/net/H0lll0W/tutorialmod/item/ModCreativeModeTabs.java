@@ -23,10 +23,21 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModItems.SAPPHIRE.get());
                         pOutput.accept(ModItems.BRICK2048_128.get());
                         pOutput.accept(ModItems.BRICK2048_128.get());
+                        pOutput.accept(ModItems.METAL_DETECTOR.get());
+                        pOutput.accept(ModItems.TOMATO.get());
+                        pOutput.accept(ModItems.CHILI.get());
+                        pOutput.accept(ModItems.CORN.get());
+                        pOutput.accept(ModItems.LENTILS.get());
+                        pOutput.accept(ModItems.AVOCADO.get());
+                        pOutput.accept(ModItems.STRAWBERRY.get());
+                        pOutput.accept(ModItems.PINEAPPLE.get());
+                        pOutput.accept(ModItems.BLUEBERRY.get());
+                        pOutput.accept(ModItems.PEPPER.get());
 
                         pOutput.accept(Items.GLOW_INK_SAC);
 
                         pOutput.accept(ModBlocks.HAPPY_BLOCK.get());
+                        pOutput.accept(ModBlocks.TRIBAL_DRUM.get());
 
                         pOutput.accept(ModBlocks.IRIDIUM_ORE.get());
                         pOutput.accept(ModBlocks.DEEPSLATE_IRIDIUM_ORE.get());

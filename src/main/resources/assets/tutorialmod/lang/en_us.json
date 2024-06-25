@@ -3,8 +3,20 @@
   "item.tutorialmod.brick2048_128" : "128 Block",
   "item.tutorialmod.unrefined_iridium" : "Unrefined Iridium",
   "item.tutorialmod.refined_iridium" : "Refined Iridium",
+  "item.tutorialmod.metal_detector" : "Metal Detector",
+
+  "item.tutorialmod.tomato" : "Tomato",
+  "item.tutorialmod.chili" : "Chili",
+  "item.tutorialmod.corn" : "Corn",
+  "item.tutorialmod.lentils" : "Lentils",
+  "item.tutorialmod.pepper" : "Pepper",
+  "item.tutorialmod.avocado" : "Avocado",
+  "item.tutorialmod.strawberry" : "Strawberries",
+  "item.tutorialmod.pineapple" : "Pineapple",
+  "item.tutorialmod.blueberry" : "Blueberries",
 
   "block.tutorialmod.happy_block": "Happy Block!",
+  "block.tutorialmod.tribal_drum": "Tribal Drum",
   "block.tutorialmod.iridium_ore": "Iridium Ore",
   "block.tutorialmod.deepslate_iridium_ore": "Deepslate Iridium Ore",
 

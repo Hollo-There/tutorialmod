@@ -15,6 +15,10 @@
   "item.tutorialmod.pineapple" : "Pineapple",
   "item.tutorialmod.blueberry" : "Blueberries",
 
+  "item.tutorialmod.gasoline" : "Gasoline",
+  "item.tutorialmod.kerosene" : "Kerosene",
+  "item.tutorialmod.natural_gas" : "Natural Gas",
+
   "block.tutorialmod.happy_block": "Happy Block!",
   "block.tutorialmod.tribal_drum": "Tribal Drum",
   "block.tutorialmod.iridium_ore": "Iridium Ore",

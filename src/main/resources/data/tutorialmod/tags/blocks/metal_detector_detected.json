@@ -1,0 +1,12 @@
+{
+  "values": [
+    "tutorialmod:iridium_ore",
+    "tutorialmod:deepslate_iridium_ore",
+    "minecraft:diamond_ore",
+    "minecraft:gold_ore",
+    "minecraft:iron_ore",
+    "minecraft:deepslate_iron_ore",
+    "minecraft:deepslate_gold_ore",
+    "minecraft:deepslate_diamond_ore"
+  ]
+}

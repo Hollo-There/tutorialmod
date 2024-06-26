@@ -1,6 +1,7 @@
 package net.H0lll0W.tutorialmod.item;
 
 import net.H0lll0W.tutorialmod.TutorialMod;
+import net.H0lll0W.tutorialmod.item.custom.FuelItem;
 import net.H0lll0W.tutorialmod.item.custom.MetalDetectorItem;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -40,6 +41,13 @@ public class ModItems {
             () -> new Item(new Item.Properties().food(ModFoods.PINEAPPLE)));
     public static final RegistryObject<Item> BLUEBERRY = ITEMS.register("blueberry",
             () -> new Item(new Item.Properties().food(ModFoods.BLUEBERRY)));
+
+    public static final RegistryObject<Item> GASOLINE = ITEMS.register("gasoline",
+            () -> new FuelItem(new Item.Properties(), 400));
+    public static final RegistryObject<Item> KEROSENE = ITEMS.register("kerosene",
+            () -> new FuelItem(new Item.Properties(), 200));
+    public static final RegistryObject<Item> NATURAL_GAS = ITEMS.register("natural_gas",
+            () -> new FuelItem(new Item.Properties(), 600));
 
 
 

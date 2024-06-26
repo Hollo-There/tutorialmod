@@ -24,6 +24,7 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModItems.BRICK2048_128.get());
                         pOutput.accept(ModItems.BRICK2048_128.get());
                         pOutput.accept(ModItems.METAL_DETECTOR.get());
+
                         pOutput.accept(ModItems.TOMATO.get());
                         pOutput.accept(ModItems.CHILI.get());
                         pOutput.accept(ModItems.CORN.get());
@@ -33,6 +34,10 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModItems.PINEAPPLE.get());
                         pOutput.accept(ModItems.BLUEBERRY.get());
                         pOutput.accept(ModItems.PEPPER.get());
+
+                        pOutput.accept(ModItems.GASOLINE.get());
+                        pOutput.accept(ModItems.KEROSENE.get());
+                        pOutput.accept(ModItems.NATURAL_GAS.get());
 
                         pOutput.accept(Items.GLOW_INK_SAC);
 

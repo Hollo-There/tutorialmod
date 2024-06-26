@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "tutorialmod:refined_iridium_from_blasting_unrefined_iridium"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_unrefined_iridium": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "tutorialmod:unrefined_iridium"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_unrefined_iridium",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "tutorialmod:refined_iridium_from_blasting_unrefined_iridium"
+    ]
+  },
+  "sends_telemetry_event": false
+}

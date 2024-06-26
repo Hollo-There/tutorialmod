@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.25,
+  "group": "iridium",
+  "ingredient": {
+    "item": "tutorialmod:deepslate_iridium_ore"
+  },
+  "result": "tutorialmod:refined_iridium"
+}
